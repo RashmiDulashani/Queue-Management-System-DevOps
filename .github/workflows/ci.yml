@@ -1,0 +1,33 @@
+name: CI Pipeline - Queue Management Website
+
+on:
+  pull_request:
+    branches: [main, develop]
+  push:
+    branches: [main, develop, feature/home-ui]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Lint
+        run: npm run lint
+
+      - name: Build Project
+        run: npm run build
+
+      - name: Run Tests
+        run: npm test --if-present
