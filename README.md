@@ -43,7 +43,7 @@ We implemented the following branching strategy to manage our collaboration:
 ## 👨‍💻 Individual Contribution
 
 | Name                  | Responsibilities | 
-|:---------------------:|:---------------:|
+|:---------------------:|:---------------|
 | G. Rashmi Dulashani | - Repository setup and branch protection rules <br> - GitHub Actions CI/CD pipeline implementation <br> - Deployment setup & management |
 | H.M. Imashi Dilshani | - Created the responsive UI/UX using Next.js components and CSS Modules. |
 
