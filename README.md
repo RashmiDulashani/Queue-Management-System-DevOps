@@ -4,15 +4,22 @@
 ![Deploy](https://github.com/RashmiDulashani/Queue-Management-System-DevOps/actions/workflows/deploy.yml/badge.svg)
 
 
-## 👥 Group Information
+## 👥 Team Members
 
-- H.M. Imashi Dilshani - ITBIN-2313-0025 - Frontend Developer
-- T.H. Imalsha Dilshani - ITBIN-2313-0027 - Backend Developer 
-- G. Rashmi Dulashani - ITBIN-2313-0031 - DevOps Manager
+| Name                  | ID              | Role               |
+|:---------------------:|:---------------:|:------------------:|
+| T.H. Imalsha Dilshani | ITBIN-2313-0027 | Frontend Developer |
+| H.M. Imashi Dilshani  | ITBIN-2313-0025 | Backend Developer  |
+| G. Rashmi Dulashani   | ITBIN-2313-0031 | DevOps Engineer    |
 
 ## 📝 Project Description
 
 Q-Master is a real-time queue management application built with Next.js. It allows service providers to manage customer flow digitally. Users can join a virtual queue and view their status, while admins can manage the active list and "call" the next person in line.
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
 
 ## 🚀 Live Deployment
 **Live URL:** https://queue-management-system-dev-ops.vercel.app/
@@ -30,17 +37,15 @@ Q-Master is a real-time queue management application built with Next.js. It allo
 ## 🌲 Branch Strategy
 We implemented the following branching strategy to manage our collaboration:
 - **main:** Production-ready code only (Protected branch).
+- **develop:** Integration branch.
 - **feature/*:** Individual branches for specific feature development.
 
 ## 👨‍💻 Individual Contribution
 
-### G. Rashmi Dulashani : ITBIN-2313-0031 (DevOps Manager)
-- Repository Setup and configured branch protection rules.
-- GitHub Actions CI/CD Pipeline Implementation.
-- Deployment Setup & Management.
-
-### H.M.Imashi Dilshani : ITBIN-2313-0025 (Frontend Developer)
-- Created the responsive UI/UX using Next.js components and CSS Modules.
+| Name                  | Responsibilities | 
+|:---------------------:|:---------------:|
+| G. Rashmi Dulashani | - Repository setup and branch protection rules <br> - GitHub Actions CI/CD pipeline implementation <br> - Deployment setup & management |
+| H.M. Imashi Dilshani | - Created the responsive UI/UX using Next.js components and CSS Modules. |
 
 ## 🔧 Setup Instructions
 
@@ -51,10 +56,10 @@ We implemented the following branching strategy to manage our collaboration:
 ### Installation
 ```bash
 # Clone the Repository
-git clone https://github.com/RashmiDulashani/Queue-Management-Website
+git clone https://github.com/RashmiDulashani/Queue-Management-System-DevOps
 
 # Navigate to Project Directory
-cd [Project-Name]
+cd Queue-Management-System-DevOps
 
 # Install Dependencies
 npm install
